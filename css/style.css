@@ -1,0 +1,190 @@
+body {
+    font-family: 'Andika New Basic', sans-serif;;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+    color: #164363;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+.navbar {
+    background-color: #8AE1FC;
+    color: #BFDBF7 !important;
+}
+
+a {
+    color: #164363;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #E2FADB;
+}
+
+.nav-brand, .footer-logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.btn-main {
+    background-color: #164363;
+    color: #8AE1FC !important;
+}
+
+input {
+    background-color: #D6EFFF !important;
+    color: #8AE1FC !important;  
+}
+
+img {
+    filter: grayscale(20%) brightness(0.85)
+}
+
+img.rounded {
+    filter: none;
+    border: 2px solid #8AE1FC;
+}
+
+/*HERO section*/
+.hero {
+    background-color: #D6EFFF;
+}
+
+.hero-post {
+    position: relative;
+}
+
+.hero-post-badges {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.hero-post-badges > a {
+    display: block;
+    background-color: #181818;
+    color: #8AE1FC;
+    font-size: 0.8rem;
+}
+
+.hero-post-content {
+    position: absolute;
+    bottom: 10px;
+    color: #333232;
+}
+
+/*main catfe*/
+.blog-posts {
+    background-color:#FAC9B8;
+}
+
+.blog-post {
+    background-color: #DB8A74;
+}
+
+.blog-post {
+    font-size: 0.9rem;
+}
+
+.blog-post h3 {
+    font-size: 1.4rem;
+}
+
+.blog-post .col-sm-8 {
+    border-left: 3px solid #2F243A;
+}
+
+.badge > a {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    background-color: #7F95D1;
+    color: #000000;
+}
+
+.badge {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.blog-post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*aside*/
+.social-links {
+    background-color: #FFEBE7;
+}
+
+.social-link {
+    color:	#DB7093;
+    font-size: 1.5rem;
+}
+
+.social-links > a {
+    padding-top: 2rem;
+}
+
+.secondary-color {
+    background-color: #D6EFFF;
+}
+
+.primary-color {
+    background-color: #FCC9B9;
+}
+
+.aside-heading {
+    border-left: 3px solid #D6EFFF;
+}
+
+.author p{
+    font-size: 0.9rem;
+}
+
+.author-social-links a:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.badges > a {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    background-color: #7F95D1;
+    color: #000000;
+    display: inline-block;
+    margin: 0.2rem;
+}
+
+.badges {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*footer*/
+.footer {
+    background-color: #DCDCDC;
+    color: #000000;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+.footer input {
+    background-color: #E8E8E8 !important;
+}
+
+.footer a {
+    color: #164363;
+}
+
+/*detail page*/
+.content {
+    background-color: #9BC4CB;
+}
